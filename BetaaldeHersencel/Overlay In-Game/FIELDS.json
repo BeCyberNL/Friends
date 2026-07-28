@@ -1,0 +1,13 @@
+{
+  "camCorner": {
+    "type": "dropdown",
+    "label": "Cam corner",
+    "value": "bottom-left",
+    "options": {
+      "bottom-left": "Bottom left",
+      "bottom-right": "Bottom right",
+      "top-left": "Top left",
+      "top-right": "Top right"
+    }
+  }
+}

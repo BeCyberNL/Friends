@@ -1,0 +1,6 @@
+{
+  "logoUrl": {
+    "type": "image-input",
+    "label": "Logo image (upload logo.png from the pack)"
+  }
+}
