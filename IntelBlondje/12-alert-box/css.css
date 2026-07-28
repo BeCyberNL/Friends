@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Fredoka:wght@400;500;600&display=swap');
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:transparent;font-family:'Fredoka',sans-serif}
+.px-heart{clip-path:polygon(14.3% 0%, 42.9% 0%, 42.9% 16.7%, 57.1% 16.7%, 57.1% 0%, 85.7% 0%, 85.7% 16.7%, 100% 16.7%, 100% 50%, 85.7% 50%, 85.7% 66.7%, 71.4% 66.7%, 71.4% 83.3%, 57.1% 83.3%, 57.1% 100%, 42.9% 100%, 42.9% 83.3%, 28.6% 83.3%, 28.6% 66.7%, 14.3% 66.7%, 14.3% 50%, 0% 50%, 0% 16.7%, 14.3% 16.7%)}
+.px-spark{clip-path:polygon(33% 0%, 66% 0%, 66% 33%, 100% 33%, 100% 66%, 66% 66%, 66% 100%, 33% 100%, 33% 66%, 0% 66%, 0% 33%, 33% 33%)}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes stripes{from{background-position:0 0}to{background-position:28px 0}}
+
+.alert{position:absolute;inset:6px;background:#FDF3DE;border:5px solid #2A2136;box-shadow:6px 6px 0 #2A2136;border-radius:14px;padding:18px 24px;display:flex;align-items:center;gap:18px;opacity:0;transform:translateY(16px);transition:opacity .3s ease,transform .3s ease}
+.alert.show{opacity:1;transform:translateY(0)}
+.aicon{width:44px;height:38px;background:#8B72D8;animation:pulse 1.8s ease-in-out infinite;flex-shrink:0}
+.atitle{font-family:'Pixelify Sans',sans-serif;font-size:28px;font-weight:700;color:#5F4BA8;line-height:1.1}
+.amsg{font-size:19px;color:#2A2136}

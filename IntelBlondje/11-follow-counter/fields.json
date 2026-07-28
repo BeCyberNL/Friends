@@ -1,0 +1,14 @@
+{
+  "label": {
+    "type": "text",
+    "label": "Label",
+    "value": "followers"
+  },
+  "startValue": {
+    "type": "number",
+    "label": "Startwaarde (fallback)",
+    "value": 0,
+    "min": 0,
+    "step": 1
+  }
+}

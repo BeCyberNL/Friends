@@ -1,0 +1,40 @@
+{
+  "followTitle": {
+    "type": "text",
+    "label": "Follow titel",
+    "value": "new follower!"
+  },
+  "followMsg": {
+    "type": "text",
+    "label": "Follow tekst ({name})",
+    "value": "welcome to the blondies, {name}"
+  },
+  "subTitle": {
+    "type": "text",
+    "label": "Sub titel",
+    "value": "new sub!"
+  },
+  "subMsg": {
+    "type": "text",
+    "label": "Sub tekst ({name})",
+    "value": "{name} joined the cutest club on Twitch"
+  },
+  "tipTitle": {
+    "type": "text",
+    "label": "Donatie titel",
+    "value": "donation!"
+  },
+  "tipMsg": {
+    "type": "text",
+    "label": "Donatie tekst ({name}/{amount})",
+    "value": "{name} tipped €{amount} — omg tysm!!"
+  },
+  "duration": {
+    "type": "number",
+    "label": "Zichtbaar (seconden)",
+    "value": 6,
+    "min": 1,
+    "max": 60,
+    "step": 1
+  }
+}

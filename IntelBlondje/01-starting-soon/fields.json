@@ -1,0 +1,21 @@
+{
+  "title": {
+    "type": "text",
+    "label": "Titel",
+    "value": "STARTING SOON"
+  },
+  "tagline": {
+    "type": "text",
+    "label": "Ondertitel",
+    "value": "grab a snack, we go live in a sec"
+  },
+  "bgColor": {
+    "type": "colorpicker",
+    "label": "Achtergrond",
+    "value": "#3B2E52"
+  },
+  "logo": {
+    "type": "image-input",
+    "label": "Logo (rond)"
+  }
+}

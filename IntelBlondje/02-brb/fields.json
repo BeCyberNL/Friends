@@ -1,0 +1,17 @@
+{
+  "title": {
+    "type": "text",
+    "label": "Titel",
+    "value": "BRB"
+  },
+  "tagline": {
+    "type": "text",
+    "label": "Ondertitel",
+    "value": "getting more snacks — don't go anywhere"
+  },
+  "bgColor": {
+    "type": "colorpicker",
+    "label": "Achtergrond",
+    "value": "#3B2E52"
+  }
+}

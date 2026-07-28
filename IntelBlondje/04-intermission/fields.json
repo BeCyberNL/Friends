@@ -1,0 +1,44 @@
+{
+  "title": {
+    "type": "text",
+    "label": "Titel",
+    "value": "INTERMISSION"
+  },
+  "minutes": {
+    "type": "number",
+    "label": "Countdown (minuten)",
+    "value": 5,
+    "min": 0,
+    "max": 120,
+    "step": 1
+  },
+  "pretext": {
+    "type": "text",
+    "label": "Tekst voor timer",
+    "value": "back in"
+  },
+  "posttext": {
+    "type": "text",
+    "label": "Tekst na timer",
+    "value": "— stay comfy"
+  },
+  "doneText": {
+    "type": "text",
+    "label": "Tekst als timer klaar is",
+    "value": "any second now!!"
+  },
+  "tickerItems": {
+    "type": "text",
+    "label": "Ticker (komma-gescheiden)",
+    "value": "grab some water, stretch a lil, chat amongst yourselves, tiktok @intelligentblondje"
+  },
+  "bgColor": {
+    "type": "colorpicker",
+    "label": "Achtergrond",
+    "value": "#3B2E52"
+  },
+  "logo": {
+    "type": "image-input",
+    "label": "Logo (rond)"
+  }
+}

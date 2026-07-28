@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Fredoka:wght@400;500;600&display=swap');
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:transparent;font-family:'Fredoka',sans-serif}
+.px-heart{clip-path:polygon(14.3% 0%, 42.9% 0%, 42.9% 16.7%, 57.1% 16.7%, 57.1% 0%, 85.7% 0%, 85.7% 16.7%, 100% 16.7%, 100% 50%, 85.7% 50%, 85.7% 66.7%, 71.4% 66.7%, 71.4% 83.3%, 57.1% 83.3%, 57.1% 100%, 42.9% 100%, 42.9% 83.3%, 28.6% 83.3%, 28.6% 66.7%, 14.3% 66.7%, 14.3% 50%, 0% 50%, 0% 16.7%, 14.3% 16.7%)}
+.px-spark{clip-path:polygon(33% 0%, 66% 0%, 66% 33%, 100% 33%, 100% 66%, 66% 66%, 66% 100%, 33% 100%, 33% 66%, 0% 66%, 0% 33%, 33% 33%)}
+.deco{position:absolute}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes scrollX{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes stripes{from{background-position:0 0}to{background-position:28px 0}}
+
+.scene{position:absolute;inset:0}
+.stack{position:absolute;inset:0 0 60px 0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:38px}
+#logo{width:240px;height:240px;border-radius:50%;border:8px solid #2A2136;box-shadow:10px 10px 0 #2A2136;animation:float 4s ease-in-out infinite;display:none}
+h1{margin:0;font-family:'Pixelify Sans',sans-serif;font-size:120px;font-weight:700;color:#8B72D8;text-shadow:8px 8px 0 #2A2136;line-height:1}
+.card{display:flex;align-items:center;gap:10px;background:#FDF3DE;border:5px solid #2A2136;box-shadow:6px 6px 0 #2A2136;border-radius:14px;padding:16px 34px;font-size:36px;font-weight:600;color:#2A2136}
+.icon{width:34px;height:30px;animation:pulse 2s ease-in-out infinite;margin-right:8px}
+#timer{font-family:'Pixelify Sans',sans-serif;color:#5F4BA8;font-weight:700}
+.ticker{position:absolute;left:0;right:0;bottom:0;height:60px;background:#8B72D8;border-top:6px solid #2A2136;overflow:hidden;display:flex;align-items:center}
+.tickertrack{display:flex;gap:60px;white-space:nowrap;font-size:26px;font-weight:600;color:#FDF3DE;animation:scrollX 18s linear infinite}

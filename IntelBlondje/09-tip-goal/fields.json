@@ -1,0 +1,31 @@
+{
+  "label": {
+    "type": "text",
+    "label": "Label",
+    "value": "snack fund"
+  },
+  "goal": {
+    "type": "number",
+    "label": "Doel",
+    "value": 100,
+    "min": 1,
+    "step": 1
+  },
+  "auto": {
+    "type": "checkbox",
+    "label": "Automatisch via StreamElements",
+    "value": true
+  },
+  "startValue": {
+    "type": "number",
+    "label": "Startwaarde (als automatisch uit staat)",
+    "value": 0,
+    "min": 0,
+    "step": 1
+  },
+  "prefix": {
+    "type": "text",
+    "label": "Prefix (bijv. € )",
+    "value": "€ "
+  }
+}
